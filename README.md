@@ -1,6 +1,6 @@
 # Test Zanichelli
 
-Web application realizzata in PHP, il cui scopo è quello di eseguire operazioni di CRUD su una base di dati.
+Web application realizzata in PHP il cui scopo è quello di eseguire operazioni di CRUD su una base di dati.
 
 ## Uso
 La web application predispone di una home page dove vengono visualizzati gli utenti estratti dal Database.

@@ -40,7 +40,8 @@ if (isset ($_POST['FirstName'])  && isset($_POST['LastName']) && isset($_POST['A
             <input type="Age" name="Age" id="Age" class="form-control" required>
         </div>
         <div class="form-group">
-          <button type="submit" class="btn btn-info">Aggiungi</button>
+          <button type="submit" class="btn btn-info">Salva</button>
+          <button type="action" class="btn btn-outline-danger" onClick="window.history.go(-1); return false;">Annulla</button>
         </div>
       </form>
     </div>
