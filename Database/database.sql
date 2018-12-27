@@ -1,6 +1,8 @@
+/*Creazione Database */
 create database Zanichelli;
 use Zanichelli;
 
+/*Creazione tabella utenti */
 create table Users (
   id  int(11) auto_increment primary key,
   FirstName varchar(20) not null,
@@ -8,6 +10,7 @@ create table Users (
   Age INT not null
 );
 
+/*Inserimento utenti */
 insert into Users (FirstName,LastName,Age)
 values ("Mario","Rossi","32");
 
